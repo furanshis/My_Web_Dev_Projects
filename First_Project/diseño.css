@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+h1{
+    text-align: center;
+    color: white;
+}
+body{
+    margin: 0 0 0 0 ;
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    position: relative;
+    margin: 0px 0px 20px 0px;
+    background-color: #021526;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    
+    
+}
+.nav p{
+    margin: 10px;
+    float: left;
+    margin-left: 10px;
+    
+}
+.nav p:hover{
+    cursor: pointer;
+}
+
+.fotos{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 40%;  
+    margin-bottom: 0px;
+    
+}
+.pareja{
+    position: relative;
+    max-width: 100%;
+    height: 900px;  
+    z-index: -1;
+}
+.text-button{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 20%;
+    height: 150px;
+    transform: translate(-80%, -20%);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+   
+}
+#contact{
+    width: 200px;
+    height: 60px;
+    margin-left: 0%;
+    font-family: monospace;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(110, 52, 135, 1);
+    color: white;
+    cursor: pointer;
+
+}
+#contact:hover{
+    background-color: rgb(110, 52, 135, 0.7);
+}
+#titulo-imagen{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translate(-50%, -10%);
+    font-family: "Lobster Two", cursive, sans-serif;
+    font-size: 7rem;
+}
+.footer{
+    position: relative;
+    margin: 0px 0px 20px 0px;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 250px;
+    margin-top: 62.5%;
+    margin-bottom: 0px;
+    align-items: center;
+    
+    
+}
+#left-text{
+    color: white;
+    font-size: 0.9rem;
+    padding:10px;
+    float: left;
+    
+}
+h2{
+    font-family: "Lobster Two";
+    font-size: 2rem;
+
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    padding-bottom: 7px;
+    font-family: 'Dancing Script';
+    font-size: 1.3rem;
+}
+#center-text{
+    margin-left: 100px;
+    font-size: 0.9rem;
+    float: left;
+    color: white;
+    padding: 10px;
+}
+#logo{
+    cursor: pointer;
+}
