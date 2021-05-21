@@ -5,6 +5,7 @@ body{
     position: absolute;
     margin: 0px 0px 0px 0px;
     z-index: -1;
+    opacity: 80%;
 }
 .nav{
     position: relative;
@@ -62,17 +63,43 @@ body{
 form{
     float: left;
     font-size: 1rem;
+
     
 }
-
-.formulario{
-    z-index: 1;
-    background-color: rgba(29, 29, 29, 0.9);
-    color: white;
-    width: 35%;
-    height: 500px;
-    margin-left: 100px;
-    margin-top: 56px;
-    
+fieldset{
+    border: none;
+}
+#contact{
+    margin-left: 35%;
+    align-items: center;
+    color: #dfdfdf;
+    margin-top: 10%;
 
 }
+form h1{
+    margin-left: 9%;
+}
+#tipo{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-right: 2rem;
+    width: 400px;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #dfdfdf;
+}
+#tipo:hover{
+    color: black;
+}
+
+
+

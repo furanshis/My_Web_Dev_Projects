@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Contacto.css">
+    <link rel="stylesheet" href="Contactos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
@@ -9,22 +9,27 @@
 <body>
     <img class="estrellas" src="img/cumuloEstrellas.jpg" alt="Estrellas" width="100%" height="100%">
     <div class="nav">
-        <p class="nav-items"><a href="#">About us</a></p>
+        <p class="nav-items"><a href="estructura.html">Dreamers©</a></p>
         <p class="nav-items"><a href="Contact.html">Contact</a></p>
         <form class="search-bar" action="#">
         <input class="ingresar" type="search"  placeholder="Buscar....">
         <input class="button"  type="submit" value="search">
     </form>
     </div>
+    <form id="contact">
+        <h1>Formulario de Contacto</h1>
+        <fieldset>
+            <select name="tipo" id="tipo">
+                <option value="0">Ingrese el motivo de su consulta</option>
+                <option value="1">Consultar detalles</option>
+                <option value="2">Poner una queja</option>
+                <option value="3">Reembolso</option>
+            </select>
+            
+        </fieldset>
+    </form>
 
-    <div class="formulario">
-        <form action="#">
-            <label for="nombre">Ingrese nombre:</label>
-            <input type="text" id="nombre">
-            <label for="apelldo">Ingrese apellidos:</label>
-            <input type="text" id="apellido">
-        </form>
-    </div>
+    
 
     
 </body>

@@ -104,6 +104,10 @@ body{
     cursor: pointer;
 
 }
+#a-buton{
+    text-decoration: none;
+    color: white;
+}
 #contact:hover{
     background-color: rgb(110, 52, 135, 0.7);
 }
